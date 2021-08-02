@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>  
+    
+<head>  
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
-        
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
         <body> 
             <!-- navigation -->
             <header>
                 <h1>
-                    <a href="Run-Buddy">Run Buddy</a>
+                    <a href="/">
+                    Run-Buddy
+                    </a>
                 </h1>
                 <nav>
+                    <!-- Unordered list element -->
                     <ul>
+                        <!-- list item element -->
                         <li>
+                            <!-- Anchor element -->
                             <a href="#what-we-do">What We Do</a>
                         </li>
                         <li>
@@ -33,11 +38,9 @@
 
             <!-- hero/jumbotron -->
             <section class="hero">
-                
                 <div class="hero-form">
                     <h3>Get Started Today</h3>
                     <p>Fill out this form and one of our trainers will schedule a consult</p>
-                    <!-- Add form element -->
                     <form>
                         <label for="name">Enter full name:</label>
                         <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
@@ -56,35 +59,31 @@
                             <label for="checkbox" >
                                 I acknowledge that I am at least 18 years of age
                             </label>
-                            <input type="checkbox" name="I-acknowledge-that-I-am-at-leat-18-years-of-age" id="checkbox" /> 
+                            <input type="checkbox" name="checkpoint1" id="checkbox" /> 
                         </p>
                         <button type="submit">
                             Get running!
                         </button>
                     </form>
                 </div>
-            </section>
-            <!-- end hero -->      
+            </section>    
 
             <!-- "what we do" section -->
             <section id="what-we-do" class="intro">
                 <h2 class="section-title primary-border">What We Do</h2>
-                ...
-              </section>
-            <section>
                 <p>
-                butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+                    butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+                    Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+                    fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+                    sustainable Intelligentsia umami deep v craft
                 </p>
             </section>
   
             <!-- "what you do" section -->
             <section id="what-you-do" class="steps">
                 <h2 class="section-title secondary-border">What You Do</h2>
-                ...
-              </section>
-            <section>
+              
                 <div>
-                    <!-- insert this img element -->
                     <img src="images/step-1.svg" alt="" />    
                     <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
                     <p>You're already here, so why not?</p>
@@ -111,11 +110,7 @@
   </section>
             <!-- "meet the trainers" section -->
             <section id="your-trainers" class="trainers">
-                <h2 class="section-title primary-border">
-                    Meet The Trainers
-                </h2>
-            </section>
-            <div>
+                <h2 class="section-title primary-border">Meet The Trainers</h2>
                 <article class="trainer">
                     <img src="images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
                     <div class="trainer-bio text-left">
@@ -127,7 +122,7 @@
                       </p>
                     </div>
                   </article>
-            </div>
+
                 <!-- second trainer bio -->
                 <article class="trainer">
                     <div class="trainer-bio text-right">
@@ -151,20 +146,18 @@
                         </p>
                     </div>
                 </article>
+            </section>
 
             <!-- "reach out" section -->
             <section id="reach-out" class="contact">
                 <h2 class="section-title secondary-border">Reach Out</h2>
-            </section>
                 <div class="contact-info">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3255.9681826275355!2d-80.7653880854065!3d35.30677205802578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1627708799141!5m2!1sen!2sus" 
-                    width="600" 
-                    height="450" 
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3255.9681826275355!2d-80.7653880854065!3d35.30677205802578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1627708799141!5m2!1sen!2sus" 
                     style="border:0;" 
                     allowfullscreen="" 
                     loading="lazy">
                 </iframe>
-                </div>
                 <div>
                     <h3>Run Buddy</h3>
                     <p>
@@ -180,15 +173,17 @@
                         E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                       </address>
                   </div>
-            
-    </body>        
-</html>
+            </div>
+        </section>
 
 <!-- footer -->
 <footer>
         <h2>❤️ Made with love by Run Buddy. </h2>
     <div>
-        <a href="#">Read Our Privacy Policy</a><br />
+        <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
         &copy; 2019 Run Buddy, Inc.
       </div>
 </footer>
+</body>
+
+</html>
