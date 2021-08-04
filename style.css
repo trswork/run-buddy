@@ -10,12 +10,21 @@
    }   
 
    /* apply styles to <header> */
+ 
    header {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   background-image: url('../images/hero-bg.jpg');
+   background-size: cover;
+   background-position: 80%;
+   background-attachment: fixed;
    padding: 20px 35px;
    background-color: #39a6b2;
    }
 
    header h1 {
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    font-weight: bold;
    font-size: 36px;
    color: #fce138;
@@ -37,10 +46,15 @@
    display: inline;
    }
 
-   header nav ul li a {
+   header nav ul li a:hover {
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
    margin: 0 30px;
    font-weight: lighter;
    font-size: 22px;
+   background: #fce138;
+   color: #024e76;
+   border-radius: 15px;
+   text-shadow: none;
    }
   
    footer {
@@ -75,15 +89,18 @@
   background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
-  background-position: center;
+  background-position: 80%;
   position: relative;
+  background-attachment: fixed;
   }
 
  /* Hero Style End */
 
   .hero-form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     width: 500px;
     color: #024e76;
@@ -101,7 +118,7 @@
     margin: 5px 0 15px 0;
   }
 
-  .form-input {
+  .form-input:focus {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -109,16 +126,23 @@
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    background-color: rgba(255,255,255, 1);
+    outline: none;
   }
   .hero-form label {
     margin: 0 5px;
   }
-  .hero-form button {
+  .hero-form button:hover {
+    border-radius: 10px;
     color: #fce138;
-    background-color: #024e76;
+    background-color: #39a6b2;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+  }
+
+  .hero-cta h2 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .intro {
@@ -133,9 +157,8 @@
     margin: 0 auto;
   }
   
-  .steps {
-    text-align: center;
-    background: #fce138
+  .step:last-child {
+    border-bottom: 1px solid #39a6b2;
   }
   
   .steps div {
@@ -266,5 +289,22 @@
   .contact-info a {
     color: #fce138;
   }
+
+  .contact-form input:focus, .contact-form textarea:focus {
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
   
-  /* REACH OUT STYLES END */
+  .contact-form button:hover {
+    border-radius: 10px;
+    color: #fce138;
+    background: #39a6b2;
+  }
+  
+  /* REACH OUT STYLES END */ 
+
+   @media screen and (max-width: 980px) {
+     header {
+       position: relative;
+     }
