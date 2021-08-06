@@ -101,7 +101,7 @@ section {
   
   /* Hero Style Start */
   .hero {
-    background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
+    background-image: url(https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
