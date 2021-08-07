@@ -333,6 +333,7 @@ section {
     color: var(--tertiary-color);
     font-size: 18px;
   }
+  /* WHAT YOU DO STYLES END */
   
   .step-text h4 {
     font-size: 26px;
@@ -398,6 +399,18 @@ section {
   
   .contact h2 {
     color: var(--primary-color);
+  }
+  /* TRAINER STYLES END */
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
   
   .contact-info {

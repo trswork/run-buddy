@@ -104,8 +104,12 @@
   /* Hero Style Start */
   .hero {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url('../assets/css/images/hero-bg.jpg');
   height: 600px;
+=======
+  background-image: url('../images/hero-bg.jpg');
+>>>>>>> feature/aesthetics
 =======
   background-image: url('../images/hero-bg.jpg');
 >>>>>>> feature/aesthetics
